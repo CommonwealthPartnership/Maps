@@ -1,0 +1,479 @@
+{
+  "version": "v1",
+  "config": {
+    "visState": {
+      "filters": [],
+      "layers": [
+        {
+          "id": "cf6ebl3h",
+          "type": "point",
+          "config": {
+            "dataId": "Office",
+            "label": "Point",
+            "color": [
+              246,
+              209,
+              138
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude",
+              "altitude": null
+            },
+            "isVisible": true,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "\u041e\u0431\u0449\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c",
+              "type": "integer"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "p1r6l87",
+          "type": "point",
+          "config": {
+            "dataId": "bazaar",
+            "label": "Point",
+            "color": [
+              183,
+              136,
+              94
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude",
+              "altitude": null
+            },
+            "isVisible": true,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        },
+        {
+          "id": "zbok4l",
+          "type": "point",
+          "config": {
+            "dataId": "mall",
+            "label": "Point",
+            "color": [
+              255,
+              203,
+              153
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude",
+              "altitude": null
+            },
+            "isVisible": true,
+            "visConfig": {
+              "radius": 10,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": {
+              "name": "\u041e\u0431\u0449\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c",
+              "type": "integer"
+            },
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
+        }
+      ],
+      "interactionConfig": {
+        "tooltip": {
+          "fieldsToShow": {
+            "Office": [
+              {
+                "name": "\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+                "format": null
+              },
+              {
+                "name": "\u0410\u0434\u0440\u0435\u0441",
+                "format": null
+              },
+              {
+                "name": "\u0414\u0430\u0442\u0430 \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430",
+                "format": null
+              },
+              {
+                "name": "\u041e\u0431\u0449\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c",
+                "format": null
+              },
+              {
+                "name": "\u0420\u0430\u0439\u043e\u043d",
+                "format": null
+              },
+              {
+                "name": "District",
+                "format": null
+              },
+              {
+                "name": "\u041a\u043b\u0430\u0441\u0441",
+                "format": null
+              },
+              {
+                "name": "\u0410\u0440\u0435\u043d\u0434\u0443\u0435\u043c\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c",
+                "format": null
+              },
+              {
+                "name": "\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u044d\u0442\u0430\u0436\u0435\u0439",
+                "format": null
+              },
+              {
+                "name": "\u0421\u0442\u0430\u0442\u0443\u0441",
+                "format": null
+              },
+              {
+                "name": "\u0422\u0438\u043f \u0434\u0430\u043d\u043d\u044b\u0445",
+                "format": null
+              }
+            ],
+            "bazaar": [
+              {
+                "name": "\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+                "format": null
+              },
+              {
+                "name": "\u0410\u0434\u0440\u0435\u0441",
+                "format": null
+              },
+              {
+                "name": "\u0414\u0430\u0442\u0430 \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430",
+                "format": null
+              },
+              {
+                "name": "\u041e\u0431\u0449\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c",
+                "format": null
+              },
+              {
+                "name": "\u0420\u0430\u0439\u043e\u043d",
+                "format": null
+              },
+              {
+                "name": "District",
+                "format": null
+              },
+              {
+                "name": "\u041a\u043b\u0430\u0441\u0441",
+                "format": null
+              },
+              {
+                "name": "\u0410\u0440\u0435\u043d\u0434\u0443\u0435\u043c\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c",
+                "format": null
+              },
+              {
+                "name": "\u0421\u0442\u0430\u0442\u0443\u0441",
+                "format": null
+              },
+              {
+                "name": "\u0422\u0438\u043f \u0434\u0430\u043d\u043d\u044b\u0445",
+                "format": null
+              }
+            ],
+            "mall": [
+              {
+                "name": "ID",
+                "format": null
+              },
+              {
+                "name": "\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+                "format": null
+              },
+              {
+                "name": "\u0410\u0434\u0440\u0435\u0441",
+                "format": null
+              },
+              {
+                "name": "\u0414\u0430\u0442\u0430 \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430",
+                "format": null
+              },
+              {
+                "name": "\u0420\u0430\u0439\u043e\u043d",
+                "format": null
+              },
+              {
+                "name": "District",
+                "format": null
+              },
+              {
+                "name": "\u041a\u043b\u0430\u0441\u0441",
+                "format": null
+              },
+              {
+                "name": "\u041a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u044d\u0442\u0430\u0436\u0435\u0439",
+                "format": null
+              },
+              {
+                "name": "\u0421\u0442\u0430\u0432\u043a\u0430 \u0430\u0440\u0435\u043d\u0434\u044b",
+                "format": null
+              },
+              {
+                "name": "\u0421\u0442\u0430\u0442\u0443\u0441",
+                "format": null
+              },
+              {
+                "name": "\u0422\u0438\u043f \u0434\u0430\u043d\u043d\u044b\u0445",
+                "format": null
+              }
+            ]
+          },
+          "compareMode": false,
+          "compareType": "absolute",
+          "enabled": true
+        },
+        "brush": {
+          "size": 0.5,
+          "enabled": false
+        },
+        "geocoder": {
+          "enabled": false
+        },
+        "coordinate": {
+          "enabled": false
+        }
+      },
+      "layerBlending": "normal",
+      "splitMaps": [],
+      "animationConfig": {
+        "currentTime": null,
+        "speed": 1
+      }
+    },
+    "mapState": {
+      "bearing": 0,
+      "dragRotate": false,
+      "latitude": 41.30641251509634,
+      "longitude": 69.2760356712193,
+      "pitch": 0,
+      "zoom": 14.499439907475114,
+      "isSplit": false
+    },
+    "mapStyle": {
+      "styleType": "p154xon",
+      "topLayerGroups": {},
+      "visibleLayerGroups": {
+        "label": true,
+        "road": true,
+        "building": true,
+        "water": true
+      },
+      "threeDBuildingColor": [
+        9.665468314072013,
+        17.18305478057247,
+        31.1442867897876
+      ],
+      "mapStyles": {
+        "p154xon": {
+          "accessToken": "pk.eyJ1IjoiaGl2c2VtMiIsImEiOiJjbDJnOTdhM2owMXJtM2ZvYXQ1dGo0ZXNiIn0.4OVvzPhTCZQCA_dLQbD4Pg",
+          "custom": true,
+          "icon": "https://api.mapbox.com/styles/v1/hivsem2/cl2hfd8kd000415mz74es1ej4/static/-122.3391,37.7922,9,0,0/400x300?access_token=pk.eyJ1IjoiaGl2c2VtMiIsImEiOiJjbDJnOTdhM2owMXJtM2ZvYXQ1dGo0ZXNiIn0.4OVvzPhTCZQCA_dLQbD4Pg&logo=false&attribution=false",
+          "id": "p154xon",
+          "label": "FINAL VERSION 27.04.2022",
+          "url": "mapbox://styles/hivsem2/cl2hfd8kd000415mz74es1ej4"
+        }
+      }
+    }
+  }
+}

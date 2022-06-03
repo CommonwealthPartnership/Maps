@@ -28,7 +28,7 @@
             },
             "isVisible": true,
             "visConfig": {
-              "radius": 38.7,
+              "radius": 33.5,
               "fixedRadius": false,
               "opacity": 0.8,
               "outline": false,
@@ -108,9 +108,9 @@
             "dataId": "bazaar",
             "label": "\u0411\u0430\u0437\u0430\u0440\u044b",
             "color": [
-              183,
-              136,
-              94
+              125,
+              194,
+              64
             ],
             "highlightColor": [
               252,
@@ -125,7 +125,7 @@
             },
             "isVisible": true,
             "visConfig": {
-              "radius": 51,
+              "radius": 38.2,
               "fixedRadius": false,
               "opacity": 0.8,
               "outline": false,
@@ -214,7 +214,7 @@
             },
             "isVisible": true,
             "visConfig": {
-              "radius": 34,
+              "radius": 33.5,
               "fixedRadius": false,
               "opacity": 0.8,
               "outline": false,
@@ -225,13 +225,13 @@
                 80
               ],
               "colorRange": {
-                "name": "UberPool 3",
-                "type": "diverging",
+                "name": "Uber Viz Qualitative 0",
+                "type": "qualitative",
                 "category": "Uber",
                 "colors": [
-                  "#213E9A",
-                  "#CA168E",
-                  "#F9E200"
+                  "#12939A",
+                  "#DDB27C",
+                  "#88572C"
                 ]
               },
               "strokeColorRange": {
@@ -448,10 +448,10 @@
     "mapState": {
       "bearing": 0,
       "dragRotate": false,
-      "latitude": 41.30005608169585,
-      "longitude": 69.2719535918117,
+      "latitude": 41.30427435072684,
+      "longitude": 69.27963838351008,
       "pitch": 0,
-      "zoom": 13.082746165432264,
+      "zoom": 12.002060129564482,
       "isSplit": false
     },
     "mapStyle": {

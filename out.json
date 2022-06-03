@@ -9,7 +9,7 @@
           "type": "point",
           "config": {
             "dataId": "Office",
-            "label": "Point",
+            "label": "\u041e\u0444\u0438\u0441\u044b",
             "color": [
               246,
               209,
@@ -28,23 +28,27 @@
             },
             "isVisible": true,
             "visConfig": {
-              "radius": 72.7,
+              "radius": 38.7,
               "fixedRadius": false,
               "opacity": 0.8,
               "outline": false,
               "thickness": 2,
-              "strokeColor": null,
+              "strokeColor": [
+                93,
+                61,
+                35
+              ],
               "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
+                "name": "Uber Viz Diverging 1.5",
+                "type": "diverging",
                 "category": "Uber",
                 "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
+                  "#999999",
+                  "#5B5B5B",
+                  "#9FC5E8",
+                  "#3D85C6",
+                  "#E06666",
+                  "#cc0000"
                 ]
               },
               "strokeColorRange": {
@@ -87,10 +91,10 @@
           },
           "visualChannels": {
             "colorField": {
-              "name": "\u041e\u0431\u0449\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c",
-              "type": "integer"
+              "name": "Service field 1",
+              "type": "string"
             },
-            "colorScale": "quantile",
+            "colorScale": "ordinal",
             "strokeColorField": null,
             "strokeColorScale": "quantile",
             "sizeField": null,
@@ -102,7 +106,7 @@
           "type": "point",
           "config": {
             "dataId": "bazaar",
-            "label": "Point",
+            "label": "\u0411\u0430\u0437\u0430\u0440\u044b",
             "color": [
               183,
               136,
@@ -121,23 +125,22 @@
             },
             "isVisible": true,
             "visConfig": {
-              "radius": 10,
+              "radius": 51,
               "fixedRadius": false,
               "opacity": 0.8,
               "outline": false,
               "thickness": 2,
-              "strokeColor": null,
+              "strokeColor": [
+                59,
+                30,
+                177
+              ],
               "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
+                "name": "UberPool 3",
+                "type": "diverging",
                 "category": "Uber",
                 "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
+                  "46E200"
                 ]
               },
               "strokeColorRange": {
@@ -192,7 +195,7 @@
           "type": "point",
           "config": {
             "dataId": "mall",
-            "label": "Point",
+            "label": "\u041c\u043e\u043b\u043b\u0441",
             "color": [
               255,
               203,
@@ -211,23 +214,24 @@
             },
             "isVisible": true,
             "visConfig": {
-              "radius": 10,
+              "radius": 34,
               "fixedRadius": false,
               "opacity": 0.8,
               "outline": false,
               "thickness": 2,
-              "strokeColor": null,
+              "strokeColor": [
+                207,
+                23,
+                80
+              ],
               "colorRange": {
-                "name": "Global Warming",
-                "type": "sequential",
+                "name": "UberPool 3",
+                "type": "diverging",
                 "category": "Uber",
                 "colors": [
-                  "#5A1846",
-                  "#900C3F",
-                  "#C70039",
-                  "#E3611C",
-                  "#F1920E",
-                  "#FFC300"
+                  "#213E9A",
+                  "#CA168E",
+                  "#F9E200"
                 ]
               },
               "strokeColorRange": {
@@ -270,10 +274,10 @@
           },
           "visualChannels": {
             "colorField": {
-              "name": "\u041e\u0431\u0449\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c",
-              "type": "integer"
+              "name": "Service field 1",
+              "type": "string"
             },
-            "colorScale": "quantile",
+            "colorScale": "ordinal",
             "strokeColorField": null,
             "strokeColorScale": "quantile",
             "sizeField": null,
@@ -444,10 +448,10 @@
     "mapState": {
       "bearing": 0,
       "dragRotate": false,
-      "latitude": 41.30779483622475,
-      "longitude": 69.33086474931957,
+      "latitude": 41.30005608169585,
+      "longitude": 69.2719535918117,
       "pitch": 0,
-      "zoom": 12.073304376991771,
+      "zoom": 13.082746165432264,
       "isSplit": false
     },
     "mapStyle": {

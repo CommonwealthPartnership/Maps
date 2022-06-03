@@ -43,10 +43,10 @@
                 "type": "diverging",
                 "category": "Uber",
                 "colors": [
-                  "#999999",
-                  "#5B5B5B",
                   "#9FC5E8",
                   "#3D85C6",
+                  "#999999",
+                  "#5B5B5B",
                   "#E06666",
                   "#cc0000"
                 ]

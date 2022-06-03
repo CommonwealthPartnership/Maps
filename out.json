@@ -28,7 +28,7 @@
             },
             "isVisible": true,
             "visConfig": {
-              "radius": 54.6,
+              "radius": 72.7,
               "fixedRadius": false,
               "opacity": 0.8,
               "outline": false,
@@ -444,10 +444,10 @@
     "mapState": {
       "bearing": 0,
       "dragRotate": false,
-      "latitude": 41.306524659968424,
-      "longitude": 69.28489309156221,
+      "latitude": 41.30779483622475,
+      "longitude": 69.33086474931957,
       "pitch": 0,
-      "zoom": 14.71886562869298,
+      "zoom": 12.073304376991771,
       "isSplit": false
     },
     "mapStyle": {

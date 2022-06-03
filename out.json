@@ -310,10 +310,6 @@
                 "format": null
               },
               {
-                "name": "District",
-                "format": null
-              },
-              {
                 "name": "\u041a\u043b\u0430\u0441\u0441",
                 "format": null
               },
@@ -448,8 +444,8 @@
     "mapState": {
       "bearing": 0,
       "dragRotate": false,
-      "latitude": 41.30427435072684,
-      "longitude": 69.27963838351008,
+      "latitude": 41.310455045184405,
+      "longitude": 69.27895271637281,
       "pitch": 0,
       "zoom": 12.002060129564482,
       "isSplit": false

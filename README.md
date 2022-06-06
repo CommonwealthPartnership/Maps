@@ -16,7 +16,8 @@
 
 Логика работы сайта:
 
- <img width="1000" alt="image" src="https://user-images.githubusercontent.com/106808815/172205838-8f66db75-b6cf-4962-9dd5-d5a7811c040b.png">
+
+![234ппп drawio](https://user-images.githubusercontent.com/106808815/172209156-b4c3d339-7381-4ff0-8656-47c53b0366da.png)
 
 4.	Через Visual Studio (среда разработки) есть возможность в полуавтоматическом режиме создавать и выгружать актуальный файл HTML (с картой) 
 

@@ -1,4 +1,4 @@
-# Maps Taskent
+# Taskent Map
 
 1.	На портале GitHub был создан аккаунт CommonWealth Partnership и репозиторий Maps для размещения карт. Портал позволяет создать сайт и получить ссылку формата:
 

@@ -39,16 +39,16 @@
                 35
               ],
               "colorRange": {
-                "name": "Uber Viz Diverging 1.5",
-                "type": "diverging",
-                "category": "Uber",
+                "name": "Custom Palette",
+                "type": "custom",
+                "category": "Custom",
                 "colors": [
                   "#9FC5E8",
                   "#3D85C6",
                   "#999999",
-                  "#5B5B5B",
                   "#E06666",
-                  "#cc0000"
+                  "#cc0000",
+                  "#5B5B5B"
                 ]
               },
               "strokeColorRange": {
@@ -108,9 +108,9 @@
             "dataId": "bazaar",
             "label": "\u0411\u0430\u0437\u0430\u0440\u044b",
             "color": [
-              125,
-              194,
-              64
+              87,
+              136,
+              46
             ],
             "highlightColor": [
               252,
@@ -197,9 +197,9 @@
             "dataId": "mall",
             "label": "\u041c\u043e\u043b\u043b\u0441",
             "color": [
-              255,
-              203,
-              153
+              221,
+              190,
+              124
             ],
             "highlightColor": [
               252,
@@ -273,11 +273,8 @@
             ]
           },
           "visualChannels": {
-            "colorField": {
-              "name": "Service field 1",
-              "type": "string"
-            },
-            "colorScale": "ordinal",
+            "colorField": null,
+            "colorScale": "quantile",
             "strokeColorField": null,
             "strokeColorScale": "quantile",
             "sizeField": null,
@@ -444,10 +441,10 @@
     "mapState": {
       "bearing": 0,
       "dragRotate": false,
-      "latitude": 41.310455045184405,
-      "longitude": 69.27895271637281,
+      "latitude": 41.30217541453126,
+      "longitude": 69.25808339859994,
       "pitch": 0,
-      "zoom": 12.002060129564482,
+      "zoom": 11.378631209171472,
       "isSplit": false
     },
     "mapStyle": {
@@ -471,7 +468,7 @@
           "icon": "https://api.mapbox.com/styles/v1/hivsem2/cl2hfd8kd000415mz74es1ej4/static/-122.3391,37.7922,9,0,0/400x300?access_token=pk.eyJ1IjoiaGl2c2VtMiIsImEiOiJjbDJnOTdhM2owMXJtM2ZvYXQ1dGo0ZXNiIn0.4OVvzPhTCZQCA_dLQbD4Pg&logo=false&attribution=false",
           "id": "p154xon",
           "label": "FINAL VERSION 27.04.2022",
-          "url": "mapbox://styles/hivsem2/cl2hfd8kd000415mz74es1ej4"
+          "url": "mapbox://styles/hivsem2/cl448gtf5000015nkmf0302pn"
         }
       }
     }

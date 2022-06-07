@@ -441,14 +441,14 @@
     "mapState": {
       "bearing": 0,
       "dragRotate": false,
-      "latitude": 41.299068455302105,
-      "longitude": 69.2301462727467,
+      "latitude": 41.29564805922309,
+      "longitude": 69.24006458912963,
       "pitch": 0,
       "zoom": 12.078279472857313,
       "isSplit": false
     },
     "mapStyle": {
-      "styleType": "p154xon",
+      "styleType": "lowsx2",
       "topLayerGroups": {},
       "visibleLayerGroups": {
         "label": true,
@@ -469,6 +469,14 @@
           "id": "p154xon",
           "label": "111",
           "url": "mapbox://styles/hivsem2/cl449v3m5000b14nugwbe3x16"
+        },
+        "lowsx2": {
+          "accessToken": "pk.eyJ1IjoiaGl2c2VtMiIsImEiOiJjbDJnOTdhM2owMXJtM2ZvYXQ1dGo0ZXNiIn0.4OVvzPhTCZQCA_dLQbD4Pg",
+          "custom": true,
+          "icon": "https://api.mapbox.com/styles/v1/hivsem2/cl44e8ulx000b15nkcexzdasn/static/-122.3391,37.7922,9,0,0/400x300?access_token=pk.eyJ1IjoiaGl2c2VtMiIsImEiOiJjbDJnOTdhM2owMXJtM2ZvYXQ1dGo0ZXNiIn0.4OVvzPhTCZQCA_dLQbD4Pg&logo=false&attribution=false",
+          "id": "lowsx2",
+          "label": "Map",
+          "url": "mapbox://styles/hivsem2/cl44e8ulx000b15nkcexzdasn"
         }
       }
     }

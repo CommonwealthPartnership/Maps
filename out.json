@@ -280,6 +280,96 @@
             "sizeField": null,
             "sizeScale": "linear"
           }
+        },
+        {
+          "id": "iz7m6fe",
+          "type": "point",
+          "config": {
+            "dataId": "warehouse",
+            "label": "\u0421\u043a\u043b\u0430\u0434\u044b",
+            "color": [
+              122,
+              13,
+              166
+            ],
+            "highlightColor": [
+              252,
+              242,
+              26,
+              255
+            ],
+            "columns": {
+              "lat": "latitude",
+              "lng": "longitude",
+              "altitude": null
+            },
+            "isVisible": true,
+            "visConfig": {
+              "radius": 33.5,
+              "fixedRadius": false,
+              "opacity": 0.8,
+              "outline": false,
+              "thickness": 2,
+              "strokeColor": null,
+              "colorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "strokeColorRange": {
+                "name": "Global Warming",
+                "type": "sequential",
+                "category": "Uber",
+                "colors": [
+                  "#5A1846",
+                  "#900C3F",
+                  "#C70039",
+                  "#E3611C",
+                  "#F1920E",
+                  "#FFC300"
+                ]
+              },
+              "radiusRange": [
+                0,
+                50
+              ],
+              "filled": true
+            },
+            "hidden": false,
+            "textLabel": [
+              {
+                "field": null,
+                "color": [
+                  255,
+                  255,
+                  255
+                ],
+                "size": 18,
+                "offset": [
+                  0,
+                  0
+                ],
+                "anchor": "start",
+                "alignment": "center"
+              }
+            ]
+          },
+          "visualChannels": {
+            "colorField": null,
+            "colorScale": "quantile",
+            "strokeColorField": null,
+            "strokeColorScale": "quantile",
+            "sizeField": null,
+            "sizeScale": "linear"
+          }
         }
       ],
       "interactionConfig": {
@@ -414,6 +504,64 @@
                 "name": "\u0422\u0438\u043f \u0434\u0430\u043d\u043d\u044b\u0445",
                 "format": null
               }
+            ],
+            "warehouse": [
+              {
+                "name": "ID",
+                "format": null
+              },
+              {
+                "name": "\u041d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u043f\u0440\u043e\u0435\u043a\u0442\u0430",
+                "format": null
+              },
+              {
+                "name": "\u0410\u0434\u0440\u0435\u0441",
+                "format": null
+              },
+              {
+                "name": "\u0414\u0430\u0442\u0430 \u0441\u0442\u0440\u043e\u0438\u0442\u0435\u043b\u044c\u0441\u0442\u0432\u0430",
+                "format": null
+              },
+              {
+                "name": "\u0420\u0430\u0439\u043e\u043d",
+                "format": null
+              },
+              {
+                "name": "District",
+                "format": null
+              },
+              {
+                "name": "\u041a\u043b\u0430\u0441\u0441",
+                "format": null
+              },
+              {
+                "name": "\u041e\u0431\u0449\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c",
+                "format": null
+              },
+              {
+                "name": "\u0410\u0440\u0435\u043d\u0434\u0443\u0435\u043c\u0430\u044f \u043f\u043b\u043e\u0449\u0430\u0434\u044c",
+                "format": null
+              },
+              {
+                "name": "\u0421\u0442\u0430\u0432\u043a\u0430 \u0430\u0440\u0435\u043d\u0434\u044b",
+                "format": null
+              },
+              {
+                "name": "\u0421\u0442\u0430\u0442\u0443\u0441",
+                "format": null
+              },
+              {
+                "name": "\u0422\u0438\u043f \u0434\u0430\u043d\u043d\u044b\u0445",
+                "format": null
+              },
+              {
+                "name": "Parent Name",
+                "format": null
+              },
+              {
+                "name": "Parent Developer",
+                "format": null
+              }
             ]
           },
           "compareMode": false,
@@ -441,10 +589,10 @@
     "mapState": {
       "bearing": 0,
       "dragRotate": false,
-      "latitude": 41.29564805922309,
-      "longitude": 69.24006458912963,
+      "latitude": 39.624460699158846,
+      "longitude": 69.38544482867017,
       "pitch": 0,
-      "zoom": 12.078279472857313,
+      "zoom": 6.919770275417265,
       "isSplit": false
     },
     "mapStyle": {
